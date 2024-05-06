@@ -1,8 +1,12 @@
 There are 3 files:
 
 (1) Trailing barrier - fractional drawdown via recursive reflection of entire sequence - for github.R
+
 (2) Trailing barrier - fractional drawdown via recursive reflection of each data point - for github.R
+
 (3) Draw trailing barrier - for github.R
+
+----------
 
 (1) was used to produce the sequence of diagrams.
 
