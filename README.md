@@ -8,7 +8,7 @@ There are 3 files:
 
 ----------
 
-(1) was used to produce the sequence of diagrams.
+(1) was used to produce the sequence of diagrams in my note 11 May 2024 note (subsequently abbreviated to the 2 panels of Figure 7 in my main note.
 
 (2) is more concise code, but equivalent (repeatedly reflecting one data point at a time = repeatedly reflecting the whole sequence.)  
 
