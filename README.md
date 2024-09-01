@@ -16,9 +16,9 @@ There are 3 files:
 
 For Figure 6, Z_t_over_M_t is the fractional drawdown F_t, directly-constructed by dividing blue asset path (GBM reflected at the trailing barrier) by its own maximum M_t (sorry about the wrong "Z_t" label)  
       
-For Figure 7, Y_old_drawdown is the farctional drawdwon F_t, constructed by reflecting the red asset path (unrestricted GBM) at 0 and 1. 
+For Figure 7, Y_old_drawdown is the fractional drawdwon F_t, constructed by reflecting the red asset path (unrestricted GBM) at 0 and 1. 
 
-The parameter D <- 2 near the top of the main code specifies the number of recursions of the {lower and upper} pair of reflection operators.This needs to be at least: the number of complete dradowns, i.e. number of times the fractional drawdown traverses from 1 to b. So if you set b closer to 1, you will probably need to increase D (because more traversals from 1 to be are likely when 1 and b are close). 
+The parameter D <- 2 near the top of the main code specifies the number of recursions of the {lower and upper} pair of reflection operators.This needs to be at least: the number of complete drawdowns, i.e. number of times the fractional drawdown traverses from 1 to b. So if you set b closer to 1, you will probably need to increase D (because more traversals from 1 to be are likely when 1 and b are close). 
 
 If you set D to a value greater than the number of complete drawdowns, this does no harm: the later applications of reflection operators have no effect, because the process has already been constrained to be between b and 1.  
 
