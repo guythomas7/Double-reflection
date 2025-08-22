@@ -7,8 +7,8 @@ There are 2 files:
 ----------
 
 
-The parameter D <- 20 near the top of the main code specifies the number of recursions of the {lower and upper} pair of reflection operators.This needs to be at least: the number of complete drawdowns, i.e. number of times the fractional drawdown traverses from 1 to b. So if you set b closer to 1, you will probably need to increase D (because more traversals from 1 to be are likely when 1 and b are close). 
+The parameter D <- 20 near the top of the main code specifies the number of recursions of the {lower and upper} pair of reflection operators.This needs to be at least: the number of complete drawdowns, i.e. number of times the fractional drawdown traverses from 1 to b. The way to think of this is that if the particle is at the latter part of its path, it needs to have received and "remembered" all the "pushes" at the upper and lower barriers earlier in its path.  
 
-If you set D to a value greater than the number of complete drawdowns, this does no harm: the later applications of reflection operators have no effect, because the process has already been constrained to be between b and 1.  
+If you set D to a value greater than the number of complete drawdowns (e.g 20 as above), this does no harm: the later applications of reflection operators have no effect, because the process has already been constrained to be between b and 1.  
 
 
